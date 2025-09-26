@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_New_Position_Application</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Position_Name__r.Status__c , &quot;New Position&quot;)</errorConditionFormula>
+    <errorDisplayField>Position_Name__c</errorDisplayField>
+    <errorMessage>We can&#39;t apply for position because Position Status is New</errorMessage>
+</ValidationRule>

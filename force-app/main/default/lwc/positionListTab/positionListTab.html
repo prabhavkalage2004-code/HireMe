@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Positions" icon-name="standard:employee_job_position">
+        <div class="slds-m-around_small">
+            <lightning-button 
+                label="New Position" 
+                variant="brand" 
+                onclick={handleNew}>
+            </lightning-button>
+        </div>
+
+        <lightning-datatable
+            key-field="Id"
+            data={positions}
+            columns={columns}
+            hide-checkbox-column="true"
+            onrowaction={handleRowAction}
+            show-row-number-column="true">
+        </lightning-datatable>
+    </lightning-card>
+</template>

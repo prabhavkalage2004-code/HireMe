@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_pay</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Profile.Name  &lt;&gt; &quot;System Administrator&quot; &amp;&amp; Max_Pay__c &gt;500000</errorConditionFormula>
+    <errorDisplayField>Max_Pay__c</errorDisplayField>
+    <errorMessage>Max pay Can&#39;t be more than 500000</errorMessage>
+</ValidationRule>

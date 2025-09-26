@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_the_Validation_on_Skill_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(Bypass_Validation_Skill_Required_Field__c) &amp;&amp; ISBLANK(Skill_Required__c )</errorConditionFormula>
+    <errorDisplayField>Skill_Required__c</errorDisplayField>
+    <errorMessage>Can&#39;t bypass Validation Rule</errorMessage>
+</ValidationRule>

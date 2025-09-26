@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Visa</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Are_you_US_Citizen__c , Do_you_need_Viza__c )</errorConditionFormula>
+    <errorMessage>If your are a US Citizen then No need US Visa</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Open_Date__c)),
+    NOT(ISPICKVAL(Status__c, &quot;Open-Approved&quot;))
+)</errorConditionFormula>
+    <errorMessage>If Open Date is entered, Status must be Open-Approved</errorMessage>
+</ValidationRule>

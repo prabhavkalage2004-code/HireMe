@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Tech_Roles</fullName>
+    <active>true</active>
+    <label>Non-Tech Roles</label>
+    <picklistValues>
+        <picklist>CEO__c</picklist>
+        <values>
+            <fullName>Ajay Banga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albert Bourla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anant Bhalla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andy Jassy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aneel Bhusri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arvind Krishna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brian Chesky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Zhang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devika Bulchandani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emma Walmsley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evan G%2E Greenberg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gail Koziara Boudreaux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gautam Adani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guillaume Faury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jay Y%2E Lee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julie Sweet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karan Adani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kumar Mangalam Birla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lisa Su</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA Yusuf Ali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mary Barra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mukesh Ambani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navin Agarwal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nikesh Arora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ola Källenius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oliver Zipse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pascal Soriot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rajesh Subramaniam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rajiv Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revathi Advaithi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roland Busch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandeep Bakshi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satya Nadella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shantanu Narayen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stephen Squeri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sundar Pichai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tim Cook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Udit Batra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vincent Clerc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yalamati Srinivasa Chakravarti</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Functional_Area__c</picklist>
+        <values>
+            <fullName>Finanace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humen Resource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>wearhousing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Chennai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delhi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mumbai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pune</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed - Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open-Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

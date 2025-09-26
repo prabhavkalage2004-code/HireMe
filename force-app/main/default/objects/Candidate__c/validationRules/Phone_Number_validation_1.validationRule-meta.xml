@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number_validation_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(   ISBLANK( Phone__c  ), 
+          NOT(ISNUMBER(Phone__c ) ) , 
+          LEN(Phone__c ) !=   10
+     )</errorConditionFormula>
+    <errorDisplayField>Phone__c</errorDisplayField>
+    <errorMessage>Phone Number is required and It must be 10 Digit</errorMessage>
+</ValidationRule>

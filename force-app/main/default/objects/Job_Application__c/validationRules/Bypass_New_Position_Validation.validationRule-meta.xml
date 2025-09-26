@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_New_Position_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL( Position_Name__r.Status__c , &quot;New Position&quot;),    NOT($Permission.Bypass_Validation)  )</errorConditionFormula>
+    <errorMessage>Allow to edit only to System admin</errorMessage>
+</ValidationRule>
